@@ -13,3 +13,7 @@ export * from './lib/map/map.component';
 
 export * from './lib/map/map.types';
 export * from './lib/marker-cluster/marker-cluster.types';
+
+// Expose provided injection tokens
+export { MAPBOX_API_KEY} from './lib/map/map.service';
+export { MAPBOX_GEOCODER_API_KEY }  from './lib/control/geocoder-control.directive';
